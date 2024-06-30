@@ -44,9 +44,51 @@ h1 {
     font-size: 18px;
 }
 
+/* main related style */
+
+
 .my-failures {
     display: flex;
-    text-align: center;
-    max-width: ;
+    align-items: center;
 
+
+
+}
+
+.my-failures-title {
+    max-width: 288px;
+    font-size: 40px;
+
+}
+
+.description {
+    max-width: 416px;
+    color: #444343;
+}
+
+
+.person-profile {
+    width: 50%;
+    text-align: center;
+}
+
+.failures {
+    width: 50%;
+
+}
+
+ul.failures-list {
+    list-style: none;
+    padding: 0;
+    color: #444343;
+
+}
+
+.failures i {
+    color: #16D887;
+    padding-right: 4px;
+}
+
+.failures-list li {
+    padding-bottom: 9px;
 }
