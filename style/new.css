@@ -56,8 +56,10 @@ h1 {
 }
 
 .my-failures-title {
-    max-width: 288px;
+    width: 288px;
     font-size: 40px;
+    padding: ;
+
 
 }
 
@@ -69,7 +71,7 @@ h1 {
 
 .person-profile {
     width: 50%;
-    text-align: center;
+    text-align: right;
 }
 
 .failures {
@@ -91,4 +93,99 @@ ul.failures-list {
 
 .failures-list li {
     padding-bottom: 9px;
+}
+
+/* plan related style */
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.plan {
+    padding: 30px;
+
+}
+
+.plan-section-title {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    margin-top: 230px;
+
+
+}
+
+.plan-title {
+    color: #151414;
+}
+
+.plan-description {
+    color: #737272;
+}
+
+.awlays {
+    background-image: url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.awlays-body {
+    background-image: linear-gradient(to right, #F15B22, #ffffff00);
+    border-radius: 5px;
+}
+
+h4 {
+    padding: 59px 617px 147px 64px;
+    margin: 0;
+    padding-left: 64px;
+    color: #FFFFFF;
+    max-width: 459px;
+    font-size: 40px;
+    text-transform: none;
+    margin-right: auto;
+}
+
+.btn {
+    background-color: #FFFFFF;
+    padding: 20px 36px;
+
+    border: none;
+    margin-top: 24px;
+    margin-right: auto;
+    color: #F15B22;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* footer style */
+footer {
+    display: flex;
+    background-color: #151414;
+}
+
+h5 {
+    color: #F8F8F8;
+    font-size: 45px;
+    margin-left: 239px;
+}
+
+.future-description {
+    margin-left: 239px;
+    color: #FFFFFF;
+    font-size: 16px;
+    max-width: 485px;
+}
+
+
+.social-links {
+    margin-left: 239px;
+
 }
