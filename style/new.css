@@ -7,7 +7,7 @@ body {
 
 nav {
     text-align: right;
-    background-image: url(/images/banner/banner2.png);
+    background-image: url("../images/banner/banner2.png");
     padding: 216px 230px 167px 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,7 +130,7 @@ ul.failures-list {
 }
 
 .awlays {
-    background-image: url(/images/watch.png);
+    background-image: url("../images/watch.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
