@@ -50,17 +50,15 @@ h1 {
 .my-failures {
     display: flex;
     align-items: center;
-
-
-
+    max-width: 1140px;
+    margin: auto;
+    gap: 82px;
+    margin-top: 124px;
 }
 
 .my-failures-title {
     width: 288px;
     font-size: 40px;
-    padding: ;
-
-
 }
 
 .description {
@@ -99,14 +97,14 @@ ul.failures-list {
 
 .plan-container {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-
-
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 1140px;
+    margin: auto;
 }
 
 .plan {
-    padding: 30px;
+    text-align: center;
 
 }
 
@@ -114,17 +112,21 @@ ul.failures-list {
     text-align: center;
     color: #151414;
     font-size: 40px;
-    margin-top: 230px;
-
+    margin-top: 124px;
 
 }
 
 .plan-title {
     color: #151414;
+    font-size: 30px;
+    margin-top: 24px;
+    margin-bottom: 16px;
 }
 
 .plan-description {
     color: #737272;
+    font-size: 25px;
+    margin: 0;
 }
 
 .awlays {
@@ -135,17 +137,18 @@ ul.failures-list {
     border-radius: 5px;
     max-width: 1140px;
     margin: auto;
+    margin-top: 124px;
 }
 
 .awlays-body {
     background-image: linear-gradient(to right, #F15B22, #ffffff00);
     border-radius: 5px;
+    padding: 60px 64px;
 }
 
 h4 {
-    padding: 59px 617px 147px 64px;
+
     margin: 0;
-    padding-left: 64px;
     color: #FFFFFF;
     max-width: 459px;
     font-size: 40px;
@@ -167,25 +170,52 @@ h4 {
 
 /* footer style */
 footer {
-    display: flex;
     background-color: #151414;
+    margin-top: 137px;
+    padding: 123px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: auto;
 }
 
 h5 {
     color: #F8F8F8;
     font-size: 45px;
-    margin-left: 239px;
+    margin: 0;
+    margin-bottom: 16px;
 }
 
 .future-description {
-    margin-left: 239px;
     color: #FFFFFF;
     font-size: 16px;
     max-width: 485px;
 }
 
+.footer-title {
+    font-size: 25px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+input[type="email"] {
+    background-color: transparent;
+    padding: 21px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 31px;
+    border: 1px solid #FFFFFF;
+}
 
 .social-links {
-    margin-left: 239px;
+    /* margin-left: 239px; */
 
+}
+
+.social-links img {
+    padding: 10px;
 }
